@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Disney+hotstar:Streming starts here(Clone)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" class="brand-logo" alt="" />
+      <ul class="nav-links">
+        <li class="nav-items"><a class="fw-bolder" href="#">TV</a></li>
+        <li class="nav-items"><a class="fw-bolder"  href="#">Movie</a></li>
+        <li class="nav-items"><a class="fw-bolder" href="#">Sports</a></li>
+        <li class="nav-items"><a class="text-warning fw-bolder" href="#">Premium</a></li>
+      </ul>
+      <div class="right-container">
+        <input type="text" class="search-box" placeholder="search" />
+        <a href="./subscribe.html"><button class="sub-btn">Subscribe</button></a>
+        <a href="#" class="login-link">Login</a>
+      </div>
+    </nav>
+    <div class="carousel-container">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active img_vid">
+                <img src="./images/kunfupanda4.jpg" alt="" class="c1img w-100">
+                <video src="./video/KUNG_FU_PANDA_4_Official_Trailer__inKs4eeHiI_248.mkv"   controls class="d-block w-100 c1vid" alt="...">
+              </div>
+              <div class="carousel-item img_vid2">
+                <img src="./images/johnwick.jpg" class="w-100 img-thumbnail c2img" alt="...">
+                <video src="./video/John_Wick_Chapter_4.mp4" controls class="d-block w-100 c2vid" alt="...">
+              </div>
+              <div class="carousel-item img_vid3">
+                <img src="./images/extraction.jpeg" class="c3img w-100" alt="">
+                <video src="./video/EXTRACTION_2_Official_Teaser_Trailer_2022_Chris_Hemsworth_Netflix.mp4" controls class="d-block w-100 c3vid" alt="...">
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="video-card-container">
+      <div class="video-card">
+        <img src="./images/disney.png" class="video-card-image" alt="" />
+        <video src="./video/disney-vid.mp4" autoplay muted loop class="card-video"></video>
+  
+      </div>
+      <div class="video-card">
+        <img src="images/pixar.PNG" class="video-card-image img-fluid im3" alt="" />
+        <video src="./video/pixar-vid.mp4" muted autoplay loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/marvel.PNG" class="video-card-image" alt="" />
+        <video src="./video/marvel-opening.mp4" muted autoplay loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/national geographic.png" class="video-card-image" alt="" />
+        <video src="./video/national-geographic-vid.mp4" muted autoplay loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/starplus.png" class="video-card-image" alt="" />
+        <video
+          src="./video/star-vid.mp4"
+          muted autoplay
+          loop
+          class="card-video"
+        ></video>
+      </div>
+    </div>
+    <h1 class="title">Recommended for you</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="images/pre.png" alt="" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="images/nxt.png" alt="" />
+      </button>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/kunfupanda4.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name text-light">Kunfu Panda 4</h2>
+            <h6 class="des">
+              Animation
+            </h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/johnwick.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">John Wick chapter 4</h2>
+            <h6 class="des">Action & Violence</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/extraction.jpeg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Extraction</h2>
+            <h6 class="des">Action</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/one piece.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">One Piece</h2>
+            <h6 class="des">Anime/Action/Adventure</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/naruto.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Naruto</h2>
+            <h6 class="des">Anime/Action/Adventure</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/bleach.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Bleach:Thousand Year Blood War</h2>
+            <h6 class="des">Action/War</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/schooloflies.webp" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">School of Lies</h2>
+            <h6 class="des">Hotstar Special series</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/out-of-love-boldest-shows-on-disney-hotstar.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Out of Love S2</h2>
+            <h6 class="des">uoewoiffiefhh cnpp ndipedp dojdo</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/kb-fc-784x436.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">KBFC VS JFC 5-0</h2>
+            <h6 class="des">Highlights</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Lionel Messi Argentina trophy 121822.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">WC Final ARG VS BRA</h2>
+            <h6 class="des">Highlights</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/mirzapur.jpeg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Mirzapur</h2>
+            <h6 class="des">Violence/War(A)</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/122824-karm.avif" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Karm Yudh</h2>
+            <h6 class="des">Hotstar Specials</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="title">More From Anime</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="images/pre.png" alt="" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="images/nxt.png" alt="" />
+      </button>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/one piece.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">One Piece</h2>
+            <h6 class="des">Action/Adventure</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/naruto.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Naruto</h2>
+            <h6 class="des">Comedy/Action</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/narutoship.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Naruto:Shippuden</h2>
+            <h6 class="des">Anime</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/devil is a part.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Hataraku Maou-sama! (The Devil is a Part-Timer!)</h2>
+            <h6 class="des">Comedy</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/tokyo.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Tokyo Revengers</h2>
+            <h6 class="des">Violence</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/jujutsu.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Jujutsu Keisen S1</h2>
+            <h6 class="des">War</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/juju2.jpeg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Jujutsu Keisen S2</h2>
+            <h6 class="des">War</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/demon slay.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Demon Slayer</h2>
+            <h6 class="des">Anime|Action|War</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/dragon-ball-z.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Dragonball-Z</h2>
+            <h6 class="des">Anime</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/blackclover.jpe" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Black Clover</h2>
+            <h6 class="des">Anime</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/moana.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Moana</h2>
+            <h6 class="des">Anime|Adventure</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Ash_Ketchum_World_Champion_Screenshot_4.0.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Pokemon</h2>
+            <h6 class="des">Anime</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
